@@ -1,8 +1,12 @@
 ###Multi-column-template
-This is me playing around with a multi-column horizontally-scrolled blog post / article template. [Demo](http://adam-lynch.github.io/multi-column-template/)
+[Demo](http://adam-lynch.github.io/multi-column-template/).
+
+This is me playing around with a multi-column horizontally-scrolled blog post / article template. 
+
+
 I'd love to be able to break away from the ubiquitous overused templates, but I haven't found a multi-column example that works as well. Maybe it can't, but I'm going to try anyway; let's see if bigger text is always better than multiple columns (on the web).
 
-Disclaimer: So far I've only tested this in the latest version of Chrome, full-screen on my laptop but I plan to make it more compatible/intelligent.
+**Disclaimer**: So far I've only tested this in the latest version of Chrome, full-screen on my laptop but I plan to make it more compatible/intelligent.
 
 ##Inspired by:
  * [Paul Lewis' multi-columned blog posts](http://aerotwist.com/blog/reinventing-the-wheel/)
