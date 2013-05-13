@@ -13,10 +13,13 @@ I'd love to be able to break away from the ubiquitous overused templates, but I 
  * [Where should the navigation be' by Vasilis van Gemert](http://nerd.vasilis.nl/where-should-the-navigation-be/)
  * [David Storey's nicely styled blog](http://generatedcontent.org/)
 
-##Todo:
+##Todo (in no particular order):
  * Add some CSS3 mixins so it'll work on more than WebKit
  * Figure out if the post heading can be fixed-positioned or part of first column without breaking post/scrolling :/
  * See why `column-height` won't work and or find a workaround to setting the height of `.post-body`
  * Sort out mobile, etc. Should only be column-ated when the viewport is wider than `column-width`. This includes refactoring the scrolling adaption so that vertical scrolling will result in the post scrolling horizontally *only* when the post isn't displayed like a typical vertical post.
+ * Or just sort out a general way of applying certain JS for certain scenarios (viewport + post view mode; horizontal/veritcal)
  * Scroll to target element if fragment identifier (`../url#id-of-something`) is specified in URL
  * Figure out a way that post headings can't be orphaned at the end of a column away from the next paragraph (in the next column)
+ * Improve sidebar; slide in like FB app. Anchor nav-icon to the right, ADAM to the left. Utilize touch (slide) events
+ * Horizontal / vertical read mode toggle
