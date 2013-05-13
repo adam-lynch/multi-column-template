@@ -357,7 +357,8 @@ body {
   padding: 0;
   background-color: #eaeaea;
   color: #2c2c2c;
-  line-height: 1.5;
+  font-family: Arial, sans-serif;
+  line-height: 1.7;
 }
 a {
   color: #464646;
@@ -373,21 +374,27 @@ a:active {
   text-shadow: 0 2px 2px #000000;
   text-transform: uppercase;
 }
+.logo,
+.logo * {
+  font-family: Arial, sans-serif;
+}
 .logo:hover,
 .logo *:hover {
   color: #ffffff !important;
 }
 .header {
   line-height: 1;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: normal;
   margin: 0;
+  font-family: Georgia, serif;
 }
 .header-large {
   line-height: 1;
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px;
+  font-weight: normal;
   margin: 0;
+  font-family: Georgia, serif;
   font-size: 72px;
 }
 .sidebar {
@@ -463,9 +470,15 @@ a:active {
   margin: 0 0 0 90px;
   overflow: auto;
   padding: 20px;
+  font-family: Georgia, serif;
 }
 .post-header {
   margin: 0 0 20px;
+}
+.post-header,
+.post-header .header {
+  font-weight: normal;
+  font-family: Georgia, serif;
 }
 .post-body {
   height: 450px;
@@ -474,6 +487,14 @@ a:active {
 .post-body * {
   margin: 20px 0 0;
 }
-.post-body .header + p {
+.post-body .header + p,
+.post-body p:first-child {
   margin: 0;
+}
+.post-body p:first-child:first-letter {
+  font-size: 63px;
+  float: left;
+  line-height: 0.8;
+  padding-top: 3px;
+  padding-right: 5px;
 }

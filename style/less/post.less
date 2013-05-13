@@ -4,10 +4,16 @@
 	margin: 0 0 0 @sidebarAssumedWidth;
 	overflow: auto;
 	padding: @gutter;
+	font-family: @postFontFamily;
 }
 
 .post-header {
 	margin: 0 0 @gutter;
+	&,
+	& .header{
+		font-weight: normal;
+		font-family: @postFontFamily;
+	}
 }
 
 .post-body {
@@ -17,8 +23,17 @@
 		margin: @gutter 0 0;
 	}
 
-	.header + p {
+	.header + p,
+	p:first-child{
 		margin: 0;
+	}
+
+	p:first-child:first-letter {
+		font-size: @textSize * 3.5;
+		float: left;
+		line-height: 0.8;
+		padding-top: 3px;
+		padding-right: 5px;
 	}
 }
 
